@@ -1,5 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Montserrat:400,400i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i&display=swap');
 
+@font-face {
+    font-family: 'wild';
+    src: url('../fonts/WildYouth-Regular.otf');
+}
 header {
     margin: 0;
 }
@@ -8,11 +12,11 @@ header {
 
 .nav {
     background-color: lightblue;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'wild', cursive;
     font-size: 30px;
     text-decoration: none;
     background: url(../images/mountain.jpg);
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
        
 }
 .nav-pills .nav-link {
@@ -32,6 +36,7 @@ header {
 
 /*-------------------------------------------------------Background*/ 
 .background-img-container {
+    background: url(../images/mountain.jpg);
     background-color: lightblue;
     background-size: cover;
     background-position: center;
@@ -39,27 +44,117 @@ header {
     margin-top: 0px;
     
 }
+.page-heading {
+    font-family: 'wild';
+    font-size: 125px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 3px 1px 1px rgba(0, 0, 0, 0.1);
+    position: relative;
+    padding-top: 30vh;   
+}
+
+.page-intro {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 10vh;
+}
 
 /*-------------------------------------------------------Info-text*/ 
-.info-box {
+.lg-info-box {
     background: lightyellow;
     min-height: 360px;
 }
+
+.md-info-box {
+    background: lightblue;
+    min-height: 360px;
+}
+#info-box-right {
+    text-align: right;
+    padding: 10vh 5vw;
+}
+
+#info-box-left {
+    text-align: left;
+    padding: 10vh 10vw 10vh 5vw;
+}
+#info-heading {
+    font-family: 'wild', sans-serif;
+    font-size: 60px;
+}
+
+#info-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    padding: 30px 0 15px 0;
+
+}
+
+/*-------------------------------------------------------Footer*/
+#footer {
+    background: url(../images/mountain.jpg);
+    background-position: center;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+.footer-heading {
+    font-family: 'wild', sans-serif;
+    font-size: 30px;
+}
+.footer-text {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 70px;
+    font-size: 20px;
+}
+
+.social-links li a i {
+    width: 33px;
+    height: 33px;
+    padding: 12px 10px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 8px;
+    text-align: center;
+    color: #fafafa;
+    background: #0098a3;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
 /*-------------------------------------------------------Images*/
-.img-box {
+.md-img-box {
     background: palegreen;
-    min-height: 120px;
+    min-height: 360px;
+    background-size: contain;
+    
+}
+
+.lg-img-box {
+    background: orange;
+    min-height: 360px;
+}
+
+#summer-img {
+    background: url(../images/hiking.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 360px;
 }
 /*-------------------------------------------------------Hover*/
 .hvr-underline-from-center:before {
     background: #ffffff;
 }
 
-.dropdown-item:hover {
-    background-color: lightblue;
-}
-
 .btn-outline-primary:hover {
     background-color: #eccb71;
     border-color: #ffffff;
+}
+
+.social-links li a i:hover {
+    background: #29e810;
 }
