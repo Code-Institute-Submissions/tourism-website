@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Montserrat:400,400i&display=swap');
+
+header {
+    margin: 0;
+}
+
+/*-------------------------------------------------------Nav*/
+
+.nav {
+    background-color: lightblue;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    text-decoration: none;
+    background: url(../images/mountain.jpg);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+       
+}
+.nav-pills .nav-link {
+    border-radius: 0;
+    color: #ffffff;
+  }
+
+.dropdown-menu {
+    opacity: 0.7;
+    font-size: 20px;
+    box-shadow: none;
+}
+.dropdown:active {
+    background-color: none;
+}
+
+
+/*-------------------------------------------------------Background*/ 
+.background-img-container {
+    background-color: lightblue;
+    background-size: cover;
+    background-position: center;
+    height: 200vh;
+    margin-top: 0px;
+    
+}
+
+/*-------------------------------------------------------Info-text*/ 
+.info-box {
+    background: lightyellow;
+    min-height: 360px;
+}
+/*-------------------------------------------------------Images*/
+.img-box {
+    background: palegreen;
+    min-height: 120px;
+}
+/*-------------------------------------------------------Hover*/
+.hvr-underline-from-center:before {
+    background: #ffffff;
+}
+
+.dropdown-item:hover {
+    background-color: lightblue;
+}
+
+.btn-outline-primary:hover {
+    background-color: #eccb71;
+    border-color: #ffffff;
+}
