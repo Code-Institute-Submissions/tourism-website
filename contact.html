@@ -34,23 +34,41 @@
           </div>
         </div>
       </header>
-      <!--Background image and text-->
+      <!--Contact Form-->
       <section>
-        <div class="container-fluid">
+        <div class="container-fluid background-content-img-container">
             <div class="row no-gutters">
-                <div class="col-12">
-
+                <div class="col">
+                    <p id="info-heading">
+                        Need more info? Get in touch.
+                    </p>
+                    <div class="contact-form">
+                        <form>
+                            <input type="text" name="name" id="fullname" class="form-control" placeholder="Full Name" required/>
+                            <input type="text" name="email" id="emailaddress" class="form-control" placeholder="E-mail Address" required/>
+                            <input type="text" name="query" id="question" class="form-control" placeholder="When is the best time to visit? Do polar bears walk on the streets here? Write your heart out..." required/>
+                            <input type="submit" value="Submit"/>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     
-      <footer class="container-fluid" id="footer">
+    <footer class="container-fluid" id="footer">
         <div class="row no-gutters">
           <div class="col-sm-6">
-            <p class="footer-heading">About</p>
-            <p class="footer-text">
-              The website's purpose is only to inform the visitor of the Swedish province, Härjedalen. Non-profitable.
+            <p class="footer-heading">Contact</p>
+              <ul class="footer-text">
+                <li>E-mail: herjedalen@mountain.com</li>
+                <li>Phone: +46 773 774 775</li> 
+              </ul>
+              <p class="footer-text">
+                <i class="fa fa-copyright" aria-hidden="true"></i>
+                Karolina Meijer
+                <script>document.write(new Date().getFullYear())
+                </script>
+              </p>
             </p>
 
           </div>
