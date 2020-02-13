@@ -12,8 +12,8 @@ header {
 
 .nav {
     background-color: lightblue;
-    font-family: 'wild', cursive;
-    font-size: 30px;
+    font-family: 'wild', sans-serif;
+    font-size: 35px;
     text-decoration: none;
     background: url(../images/mountain.jpg);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
@@ -37,13 +37,22 @@ header {
 /*-------------------------------------------------------Background*/ 
 .background-img-container {
     background: url(../images/mountain.jpg);
-    background-color: lightblue;
     background-size: cover;
     background-position: center;
     height: 200vh;
     margin-top: 0px;
     
 }
+
+.background-content-img-container {
+    background: url(../images/mountain.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin-top: 0px;
+    
+}
+
 .page-heading {
     font-family: 'wild';
     font-size: 125px;
@@ -62,14 +71,14 @@ header {
     margin-top: 10vh;
 }
 
-/*-------------------------------------------------------Info-text*/ 
+/*-------------------------------------------------------Info Box*/
 .lg-info-box {
-    background: lightyellow;
+    background:#558764;
     min-height: 360px;
 }
 
 .md-info-box {
-    background: lightblue;
+    background: #1f4b58;
     min-height: 360px;
 }
 #info-box-right {
@@ -79,20 +88,30 @@ header {
 
 #info-box-left {
     text-align: left;
-    padding: 10vh 10vw 10vh 5vw;
+    padding: 10vh 10vw 5vh 5vw;
 }
 #info-heading {
     font-family: 'wild', sans-serif;
     font-size: 60px;
+    color: #ffffff;
 }
 
 #info-text {
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     padding: 30px 0 15px 0;
-
+    color: #ffffff;
 }
 
+.text-link{
+    text-decoration: underline;
+    color: #ffffff;
+}
+/*-------------------------------------------------------Contact Form*/
+.contact-form{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
 /*-------------------------------------------------------Footer*/
 #footer {
     background: url(../images/mountain.jpg);
@@ -103,7 +122,7 @@ header {
 }
 .footer-heading {
     font-family: 'wild', sans-serif;
-    font-size: 30px;
+    font-size: 35px;
 }
 .footer-text {
     font-family: 'Montserrat', sans-serif;
@@ -112,20 +131,23 @@ header {
 }
 
 .social-links li a i {
-    width: 33px;
-    height: 33px;
-    padding: 12px 10px;
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    padding: 22px 15px;
     border-radius: 50%;
-    font-size: 13px;
+    font-size: 22px;
     line-height: 8px;
     text-align: center;
-    color: #fafafa;
+    color: #ffffff;
     background: #0098a3;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
+
+
 /*-------------------------------------------------------Images*/
 .md-img-box {
     background: palegreen;
@@ -139,12 +161,51 @@ header {
     min-height: 360px;
 }
 
-#summer-img {
-    background: url(../images/hiking.jpg);
+#history-img {
+    background: url(../images/viking.jpg);
     background-size: cover;
     background-position: center;
     min-height: 360px;
 }
+
+#history-visit-img {
+    background: url(../images/museum.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 360px;
+}
+
+#summer-img {
+    background: url(../images/hiking.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 360px;
+}
+
+#winter-img {
+    background: url(../images/ski.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 360px;
+}
+#winter-visit-img {
+    background: url(../images/bruksvallarna.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 360px;
+}
+
+/*-------------------------------------------------------Buttons*/
+.btn {
+    border: 3px solid;
+}
+.btn-outline-info {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    align-items: center;
+}
+
 /*-------------------------------------------------------Hover*/
 .hvr-underline-from-center:before {
     background: #ffffff;
@@ -156,5 +217,9 @@ header {
 }
 
 .social-links li a i:hover {
-    background: #29e810;
+    background: #5c10e8;
+}
+
+.text-link:hover {
+    color: rgb(255, 170, 58);
 }
