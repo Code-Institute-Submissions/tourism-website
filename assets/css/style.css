@@ -84,6 +84,10 @@ header {
 .text-link{
     text-decoration: underline;
     color: #ffffff;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 /*-------------------------------------------------------Contact Form*/
 .contact-form{
@@ -189,6 +193,10 @@ header {
     font-size: 20px;
 }
 
+li a{
+    color: #ffffff;
+    text-decoration: none;
+}
 .social-links li a i {
     margin-top: 10px;
     width: 50px;
