@@ -7,68 +7,76 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css">
-    <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Special+Elite&display=swap" rel="stylesheet">
     <title>Härjedalen</title>
 </head>
 <body>
-    <header>
-        <!--Navigation-->
-        <div class="row no-gutters">
-          <div class="col">
-            <ul class="nav nav-pills nav-fill no-gutters">
-              <li class="nav-item col-6 col-sm-3">
-                <a class="nav-link hvr-underline-from-center" href="index.html"><span>Home</span></a>
-              </li>
-              </li>
-              <li class="nav-item col-6 col-sm-3">
-                <a class="nav-link hvr-underline-from-center" href="summer.html">Summer</a>
-              </li>
-              <li class="nav-item col-6 col-sm-3">
-                <a class="nav-link hvr-underline-from-center " href="winter.html">Winter</a>
-              </li>
-              <li class="nav-item col-6 col-sm-3">
-                <a class="nav-link hvr-underline-from-center " href="contact.html">Contact Us</a>
-              </li>
-            </ul>
-  
-          </div>
+  <header>
+    <nav>
+      <div class="row no-gutters">
+        <div class="col">
+          <ul class="nav nav-pills nav-fill no-gutters">
+            <li class="nav-item col-6 col-sm-3">
+              <a class="nav-link hvr-underline-from-center" href="index.html"><span>Home</span></a>
+            </li>
+            <li class="nav-item col-6 col-sm-3">
+              <a class="nav-link hvr-underline-from-center" href="summer.html">Summer</a>
+            </li>
+            <li class="nav-item col-6 col-sm-3">
+              <a class="nav-link hvr-underline-from-center " href="winter.html">Winter</a>
+            </li>
+            <li class="nav-item col-6 col-sm-3">
+              <a class="nav-link hvr-underline-from-center " href="contact.html">Contact Us</a>
+            </li>
+          </ul>
         </div>
-      </header>
+      </div>
+    </nav>
+  </header>
     <!--Information text and images-->
     <section>
         <div class="row no-gutters">
           <div class="col-md-8 lg-info-box" id="info-box-left">
-            <p id="info-heading"> <b>What to do?</b>
+            <p id="info-heading"> 
+              <i class="fa fa-question-circle" aria-hidden="true"></i>
+            <span class="sr-only">Circle</span>
+              <b>What to do:</b>
             </p>
             <p id="info-text">
                 One word, snow. What isn't there to do? Be like Anna and build a snowman, 
                 have some hot chocolate with your loved ones or go for a day-trip on your newly rented nordic skates.
                 Did you know that Härjedalen highest altitude province in Sweden? The lowest place is just 350 meters above sea level.
+                Therefore, there's a lot of places to visit for a memorable skiing experience.
                 So why not visit <a class="text-link" href="https://www.tanndalen.com/utforska/skandinaviens-baesta-skidort/" target="_blank">Scandinavias best ski resort</a>, magnificent Tänndalen?
-              </p>
-              <p id="info-text">
+              <br>
+              <br>
                 Ever had a dream of being away from the dullness of everyday life with your friends for one week and having a blast?
                 Rent a cabin and make that dream come true! 
               </p>
+              <a href="https://www.alltomskidresor.se/harjedalen" target="_blank" class="btn btn-outline-info">Going downhill?</a>
           </div>
-          <div class="col-md-4 md-img-box" id="winter-img">
+          <div class="col-md-4 img-box" id="center-pos-img" style="background-image: url(./assets/images/ski.jpg);" role=text aria-label="A skier">
               
           </div>    
     </div>
     </section>
-    <!--Visit page-->
+    
     <section>
       <div class="row no-gutters">
         <div class="col-md-4 md-info-box" id="info-box-left">
-          <p id="info-heading"> <b>What to visit?</b>
+          <p id="info-heading"> 
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            <span class="sr-only">Marker</span>
+            <b>What to visit?</b>
           </p>
           <p id="info-text">
-            Fortunately, there are a lot of places to visit for a memorable skiing experience.
             For nordic skating, a popular place is the beautiful Bruksvallarna, where both amateur and professionals
-            practise. 
+            practise. But for the snowboard-loving and fast-paced skiers, <b>Lofsdalen, Vemdalen and Tänndalen</b> are solid choices.
+
           </p>
         </div>
-        <div class="col-md-8 lg-img-box" id="winter-visit-img">
+        <div class="col-md-8 img-box" id="center-pos-img" style="background-image: url(./assets/images/bruksvallarna.jpg);" role=text aria-label="Winter landscape">
               
           </div> 
 
@@ -89,7 +97,7 @@
                 <script>document.write(new Date().getFullYear())
                 </script>
               </p>
-            </p>
+            
 
           </div>
           <div class="col-sm-6">
@@ -119,9 +127,8 @@
         </div>
     </footer>
     
-</body>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
+  </body>
 </html>

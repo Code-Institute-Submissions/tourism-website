@@ -7,78 +7,80 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css">
-    <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Special+Elite&display=swap" rel="stylesheet">
     <title>Härjedalen</title>
 </head>
 <body>
-    <header>
-        <!--Navigation-->
-        <div class="row no-gutters">
-          <div class="col">
-            <ul class="nav nav-pills nav-fill no-gutters">
-              <li class="nav-item col-6 col-sm-3">
-                <a class="nav-link hvr-underline-from-center" href="index.html"><span>Home</span></a>
-              </li>
-              </li>
-              <li class="nav-item col-6 col-sm-3">
-                <a class="nav-link hvr-underline-from-center" href="summer.html">Summer</a>
-              </li>
-              <li class="nav-item col-6 col-sm-3">
-                <a class="nav-link hvr-underline-from-center " href="winter.html">Winter</a>
-              </li>
-              <li class="nav-item col-6 col-sm-3">
-                <a class="nav-link hvr-underline-from-center " href="contact.html">Contact Us</a>
-              </li>
-            </ul>
-  
-          </div>
+  <header>
+    <nav>
+      <div class="row no-gutters">
+        <div class="col">
+          <ul class="nav nav-pills nav-fill no-gutters">
+            <li class="nav-item col-6 col-sm-3">
+              <a class="nav-link hvr-underline-from-center" href="index.html"><span>Home</span></a>
+            </li>
+            <li class="nav-item col-6 col-sm-3">
+              <a class="nav-link hvr-underline-from-center" href="summer.html">Summer</a>
+            </li>
+            <li class="nav-item col-6 col-sm-3">
+              <a class="nav-link hvr-underline-from-center " href="winter.html">Winter</a>
+            </li>
+            <li class="nav-item col-6 col-sm-3">
+              <a class="nav-link hvr-underline-from-center " href="contact.html">Contact Us</a>
+            </li>
+          </ul>
         </div>
-      </header>
+      </div>
+    </nav>
+  </header>
       <!--Background image and text-->
     <section>
         <div class="background-img-container">
             <p class="page-heading">This is home.</p>
-            <p class="page-intro">Welcome to the mountains.</p>
+            <p class="page-intro">Welcome to Härjedalen.</p>
         </div>
     </section>
     <!--Information text and images-->
     <section>
         <div class="row no-gutters">
           <div class="col-md-8 lg-info-box" id="info-box-left">
-            <p id="info-heading"> <b>History</b>
+            <p id="info-heading"> 
+              <i class="fa fa-book" aria-hidden="true"></i>
+            <span class="sr-only">Book</span>
+              <b>History</b>
             </p>
             <p id="info-text"><b>Härjedalen is a historical province</b> (landskap) in the centre of Sweden. 
               It borders the Norwegian county of Trøndelag as well as the provinces of Dalarna, Hälsingland, Medelpad, and Jämtland. 
               The province originally belonged to Norway, but was ceded to Sweden in the Treaty of Brömsebro, 1645.
-              </p>
-              <p id="info-text">
+              <br>
+              <br>
               <b>According to legend,</b> Härjedalen is named after a powerful Norseman who had to flee east from the Norwegian court of King Halfdan Svarte after killing one of the king's men with a horn. 
               Thereafter he was known as Härjulf Hornbrytare (lit. "Härjulf the Hornbreaker"). 
               For a time he entered the service of the Svea King Anund, until he eloped with that king's sister, Helga, 
               and together they disappeared into the remote location in the region eventually named after him.
               </p>
+                
           </div>
-          <div class="col-md-4 md-img-box" id="history-img">
+          <div class="col-md-4 img-box" id="center-pos-img" style="background-image: url(./assets/images/viking.jpg);" role=text aria-label="Headshot of a viking">
               
           </div>    
-    </div>
-    </section>
-    <!--Map page-->
-    <section>
-      <div class="row no-gutters">
-        <div class="col-md-4 md-info-box" id="info-box-left">
-          <p id="info-heading"> <b>What to visit?</b>
-          </p>
-          <p id="info-text">
-            If you're interested in more history related things, take a look at <b>Härjedalens Fjällmuseum</b>
-            and its exhibitions.
-          </p>
-          <a href="https://kommun.herjedalen.se/vemardu/fjallmuseet.4.7a231afd12424b40e2880001097.html" target="_blank">
-            <button type="button" class="btn btn-outline-info">Explore more</button>
-          </a>
         </div>
-        <div class="col-md-8 lg-img-box" id="history-visit-img" alt="A boy looking at a museum exhibition">
-              
+  
+        <div class="row no-gutters">
+          <div class="col-md-4 md-info-box" id="info-box-left">
+            <p id="info-heading"> 
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <span class="sr-only">Marker</span>
+              <b>What to visit?</b>
+            </p>
+            <p id="info-text">
+              If you're interested in more history related things, take a look at <b>Härjedalens Fjällmuseum</b>
+              and its exhibitions.
+            </p>
+            <a href="https://kommun.herjedalen.se/vemardu/fjallmuseet.4.7a231afd12424b40e2880001097.html" target="_blank" class="btn btn-outline-info">Explore more</a>
+          </div>
+          <div class="col-md-8 img-box" id="center-pos-img" style="background-image: url(./assets/images/museum.jpg);" role=text aria-label="A boy looking at a museum exhibition">
           </div> 
 
       </div>
@@ -98,7 +100,7 @@
                 <script>document.write(new Date().getFullYear())
                 </script>
               </p>
-            </p>
+            
 
           </div>
           <div class="col-sm-6">
@@ -128,9 +130,9 @@
         </div>
     </footer>
     
-</body>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
+  </body>
 </html>

@@ -7,47 +7,49 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css">
-    <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Special+Elite&display=swap" rel="stylesheet">
     <title>Härjedalen</title>
 </head>
 <body>
-    <header>
-        <!--Navigation-->
-        <div class="row no-gutters">
-          <div class="col">
-            <ul class="nav nav-pills nav-fill no-gutters">
-              <li class="nav-item col-6 col-sm-3">
-                <a class="nav-link hvr-underline-from-center" href="index.html"><span>Home</span></a>
-              </li>
-              </li>
-              <li class="nav-item col-6 col-sm-3">
-                <a class="nav-link hvr-underline-from-center" href="summer.html">Summer</a>
-              </li>
-              <li class="nav-item col-6 col-sm-3">
-                <a class="nav-link hvr-underline-from-center " href="winter.html">Winter</a>
-              </li>
-              <li class="nav-item col-6 col-sm-3">
-                <a class="nav-link hvr-underline-from-center " href="contact.html">Contact Us</a>
-              </li>
-            </ul>
-  
-          </div>
+  <header>
+    <nav>
+      <div class="row no-gutters">
+        <div class="col">
+          <ul class="nav nav-pills nav-fill no-gutters">
+            <li class="nav-item col-6 col-sm-3">
+              <a class="nav-link hvr-underline-from-center" href="index.html"><span>Home</span></a>
+            </li>
+            <li class="nav-item col-6 col-sm-3">
+              <a class="nav-link hvr-underline-from-center" href="summer.html">Summer</a>
+            </li>
+            <li class="nav-item col-6 col-sm-3">
+              <a class="nav-link hvr-underline-from-center " href="winter.html">Winter</a>
+            </li>
+            <li class="nav-item col-6 col-sm-3">
+              <a class="nav-link hvr-underline-from-center " href="contact.html">Contact Us</a>
+            </li>
+          </ul>
         </div>
-      </header>
-      <!--Background image and text-->
+      </div>
+    </nav>
+  </header>
     
     <!--Information text and images-->
     <section>
         <div class="row no-gutters">
           <div class="col-md-8 lg-info-box" id="info-box-left">
-            <p id="info-heading"> <b>What to do?</b>
+            <p id="info-heading"> 
+              <i class="fa fa-question-circle" aria-hidden="true"></i>
+            <span class="sr-only">Circle</span>
+              <b>What to do:</b>
             </p>
             <p id="info-text">
                 During the summer period, <b>June-August</b> you can expect a lot of sun-hours as you're
                 moving closer towards the polar circle. The long nights pairs well with a tent and some fishing.
                 However, remember to first visit a local tourist-shop and get your self a fishing card.
-              </p>
-              <p id="info-text">
+              <br>
+              <br>
                 There are many hiking tracks you can take through the province.
                 Why not discover one of Sweden's first national parks, Sonfjället and take a trip to the top?
                 But be aware, if you're lucky, one of the forest's giants can be a sight to behold.
@@ -56,21 +58,28 @@
                     <span class="sr-only">Paw</span>.</b>
                 </p>
           </div>
-          <div class="col-md-4 md-img-box" id="summer-img">
+          <div class="col-md-4 img-box" id="bottom-pos-img" style="background-image: url(./assets/images/hiking.jpg);" role=text aria-label="A female hiker in the mountains">
               
           </div>    
     </div>
     </section>
-    <!--Map page-->
+  
     <section>
       <div class="row no-gutters">
         <div class="col-md-4 md-info-box" id="info-box-left">
-          <p id="info-heading"> <b>What to visit?</b>
+          <p id="info-heading"> 
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            <span class="sr-only">Marker</span>
+            <b>What to visit?</b>
           </p>
           <p id="info-text">
+            For hiking tracks, as mentioned before Sonfjället is a really great place to start.
+            Fishing can be done in a lot of parts and the <b>great river Ljusnan</b> goes right through the province.
+            Or why not find your inner Tiger Woods and play some golf in Hede?
           </p>
+          <a href="http://www.jhgolf.se/hede-vemdalens-golfklubb/" target="_blank" class="btn btn-outline-info">Go swing!</a>
         </div>
-        <div class="col-md-8 lg-img-box" id="map-img">
+        <div class="col-md-8 img-box" id="center-pos-img" style="background-image: url(./assets/images/river.jpg);" role=text aria-label="A river in a forest">
               
           </div> 
 
@@ -91,7 +100,7 @@
                 <script>document.write(new Date().getFullYear())
                 </script>
               </p>
-            </p>
+            
 
           </div>
           <div class="col-sm-6">
@@ -121,9 +130,8 @@
         </div>
     </footer>
     
-</body>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
+  </body>
 </html>
